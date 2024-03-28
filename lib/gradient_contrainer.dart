@@ -19,8 +19,8 @@ class GradientContainer extends StatelessWidget {
           colors: const [Colors.red, Colors.blue],
         ),
       ),
-      child: const Center(
-        child: NewWidget(),
+      child: Center(
+        child: NewWidget('Hello World!!! :-)'),
       ),
     );
   }
